@@ -4,7 +4,7 @@ Proyecto desarrollado con HTML, CSS y JavaScript.
 
 ## Ver proyecto en línea
 
-https://glittery-gaufre-603017.netlify.app/
+https://rainbow-beijinho-c21171.netlify.app/
 
 ## Instalación
 
