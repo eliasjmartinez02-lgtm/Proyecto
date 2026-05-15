@@ -11,8 +11,14 @@ https://glittery-gaufre-603017.netlify.app/
 Clonar el repositorio:
 
 ```bash
-git clone
-https://github.com/eliasjmartinez02-lgtm/Proyecto.git
+git clone https://github.com/eliasjmartinez02-lgtm/Proyecto.git
+
+## Cómo ejecutar el proyecto
+
+1. Descargar o clonar el repositorio.
+2. Abrir la carpeta del proyecto.
+3. Ejecutar el archivo index.html en el navegador.
+
 
 ## Autores
 
