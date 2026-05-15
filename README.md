@@ -11,7 +11,8 @@ https://glittery-gaufre-603017.netlify.app/
 Clonar el repositorio:
 
 ```bash
-git clone https://github.com/eliasjmartinez02-lgtm/Proyecto.git
+git clone
+https://github.com/eliasjmartinez02-lgtm/Proyecto.git
 
 ## Autores
 
