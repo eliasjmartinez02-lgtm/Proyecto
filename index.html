@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Panamá</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="app">
+        <h1>Trivia Cultural de Panamá</h1>
+
+        <!-- Controles -->
+        <div class="controls">
+            <label>Dificultad:
+                <select id="select-dificultad">
+                    <option value="Facil">Fácil</option>
+                    <option value="Medio">Medio</option>
+                    <option value="Dificil">Difícil</option>
+                </select>
+            </label>
+
+            <button id="btn-iniciar" class="btn">Iniciar Juego</button>
+        </div>
+
+        <!-- Pregunta -->
+        <div id="juego" class="card hidden">
+            <img id="preg-img" class="img hidden" src="" alt="Imagen Pregunta">
+
+            <h2 id="texto-pregunta"></h2>
+
+            <div id="opciones-lista" class="options"></div>
+
+            <p class="info">Pregunta <span id="contador-preguntas">0</span> / <span id="total-preguntas">0</span></p>
+            <p class="info">Tiempo: <span id="tiempo-restante">--</span>s</p>
+            <div class="progress">
+                <div id="barra-progreso" class="progress-bar"></div>
+            </div>
+        </div>
+
+        <!-- Pantalla Final -->
+        <div id="final" class="final hidden">
+            <h2>Juego Terminado</h2>
+            <p>Tu puntaje final es:</p>
+            <h1 id="puntaje-final">0</h1>
+            <button id="btn-reiniciar" class="btn">Jugar Otra Vez</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
